@@ -22,7 +22,7 @@ $ yarn global add ignite-cli
 Then spin up a new Bowser-powered React Native app:
 
 ```
-$ ignite new MyApp -b ddn-mobile
+$ ignite new MyApp -b @ddn/ddn-mobile
 ```
 
 The Ignite Bowser boilerplate project's structure will look similar to this:

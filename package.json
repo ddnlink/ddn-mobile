@@ -1,10 +1,13 @@
 {
-  "name": "ddn-mobile",
+  "name": "@ddn/ddn-mobile",
   "description": "DDN Link's hot boilerplate for Mobile.",
   "license": "MIT",
-  "repository": "ddnlink/ddn-mobile",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddnlink/ddn-mobile.git"
+  },
   "homepage": "https://github.com/ddnlink/ddn-mobile.git",
-  "version": "4.4.1",
+  "version": "1.0.0",
   "files": [
     "boilerplate",
     "commands",
@@ -15,11 +18,7 @@
     "readme.md",
     "vanilla"
   ],
-  "author": {
-    "name": "Imfly",
-    "email": "support@ddn.link",
-    "url": "https://github.com/ddnlink/ddn-mobile.git"
-  },
+  "author": "Imfly <support@ddn.link> (https://github.com/ddnlink/ddn-mobile.git)",
   "scripts": {
     "lint": "eslint commands lib test --fix",
     "test": "jest",
@@ -91,5 +90,19 @@
       "/node_modules",
       "/boilerplate"
     ]
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/ddnlink/ddn-mobile/issues"
+  },
+  "main": "boilerplate.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "keywords": [
+    "boilerplate",
+    "templates",
+    "ddn",
+    "blockchain"
+  ]
 }
