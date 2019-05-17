@@ -7,7 +7,7 @@
     "url": "git+https://github.com/ddnlink/ddn-mobile.git"
   },
   "homepage": "https://github.com/ddnlink/ddn-mobile.git",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "files": [
     "boilerplate",
     "commands",

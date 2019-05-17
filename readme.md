@@ -19,7 +19,13 @@ First, install Ignite CLI:
 $ yarn global add ignite-cli
 ```
 
-Then spin up a new Bowser-powered React Native app:
+Second, add `@ddn/ddn-mobile` Plugin:
+
+```
+$ ignite add @ddn/ddn-mobile
+```
+
+Then spin up a new React Native app:
 
 ```
 $ ignite new MyApp -b @ddn/ddn-mobile
