@@ -1,6 +1,6 @@
 module.exports = {
   description: 'Generates a component, supporting files, and a storybook test.',
-  run: async function(toolbox) {
+  run: async function (toolbox) {
     // grab some features
     const { parameters, strings, print, ignite, patching } = toolbox
     const { pascalCase, isBlank } = strings

@@ -2,7 +2,7 @@ const patterns = require('../../lib/patterns')
 
 module.exports = {
   description: 'Generates a React Native screen.',
-  run: async function(toolbox) {
+  run: async function (toolbox) {
     // grab some features
     const { parameters, print, strings, ignite, filesystem, patching } = toolbox
     const { pascalCase, isBlank, camelCase } = strings
@@ -33,10 +33,6 @@ module.exports = {
       {
         template: `screen.ejs`,
         target: `app/screens/${screenName}/${screenName}.tsx`
-      },
-      {
-        template: 'rollup-index.ts.ejs',
-        target: `app/screens/${screenName}/index.ts`
       }
     ]
 
@@ -56,7 +52,6 @@ module.exports = {
           `Add your new screen manually to your navigation.`
         print.error(msg)
         process.exit(1)
-        return
       }
 
       // insert screen import

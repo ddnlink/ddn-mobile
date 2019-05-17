@@ -43,7 +43,7 @@ async function install(context) {
 
   const name = parameters.first
   const spinner = print
-    .spin(`using the ${red('Infinite Red')} boilerplate v3 (code name 'Bowser')`)
+    .spin(`using the ${red('DDN Mobile')} boilerplate v1 (code name 'DDNMobile')`)
     .succeed()
 
   // attempt to install React Native or die trying
@@ -189,7 +189,7 @@ async function install(context) {
   try {
     // boilerplate adds itself to get plugin.js/generators etc
     // Could be directory, npm@version, or just npm name.  Default to passed in values
-    const boilerplate = parameters.options.b || parameters.options.boilerplate || 'ignite-bowser'
+    const boilerplate = parameters.options.b || parameters.options.boilerplate || 'ddn-mobile'
 
     await system.spawn(`ignite add ${boilerplate} ${debugFlag}`, { stdio: 'inherit' })
 
@@ -272,8 +272,8 @@ async function install(context) {
   const androidInfo = isAndroidInstalled(context)
     ? ''
     : `\n\nTo run in Android, make sure you've followed the latest react-native setup instructions at https://facebook.github.io/react-native/docs/getting-started.html before using ignite.\nYou won't be able to run ${bold(
-        'react-native run-android'
-      )} successfully until you have.`
+      'react-native run-android'
+    )} successfully until you have.`
 
   const successMessage = `
     ${red('Ignite CLI')} ignited ${yellow(name)} in ${gray(`${perfDuration}s`)}
@@ -285,13 +285,13 @@ async function install(context) {
       react-native run-android${androidInfo}
       ignite --help
 
-    ${cyan('Need additional help? Join our Slack community at http://community.infinite.red.')}
+    ${cyan('Need additional help? Join our community at http://ddn.link.')}
 
     ${bold('Now get cooking! 🍽')}
 
     ${gray(
-      '(Running yarn install one last time to make sure everything is installed -- please be patient!)'
-    )}
+    '(Running yarn install one last time to make sure everything is installed -- please be patient!)'
+  )}
   `
 
   print.info(successMessage)

@@ -7,6 +7,18 @@
   "errors": {
     "invalidEmail": "Invalid email address."
   },
+  "searchScreen": {
+    "header": "Search"
+  },
+  "homeScreen": {
+    "header": "Home"
+  },
+  "messageScreen": {
+    "header": "Message"
+  },
+  "settingScreen": {
+    "header": "Setting"
+  },
   "firstExampleScreen": {
     "poweredBy": "POWERED BY BOWSER",
     "readyForLaunch": "Ready for launch.",

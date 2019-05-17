@@ -1,16 +1,6 @@
-<p align="center"><img src="http://ir_public.s3.amazonaws.com/projects/ignite/ignite-bowser-launch-screen.png" alt="logo" width="414px"></p>
+# DDN Mobile Boilerplate
 
-# Ignite IR Boilerplate ("Bowser")
-
-_NOTE: This repo has been renamed from ignite-ir-boilerplate-bowser to ignite-bowser. Although web traffic and git operations for the previous name will be redirected, we recommend you update any links and git urls for this repo._
-
-<a href="https://circleci.com/gh/infinitered/ignite-bowser"><img alt="CircleCI" src="https://circleci.com/gh/infinitered/ignite-bowser.svg?style=svg" /></a>
-
-## Infinite Red's latest and greatest React Native boilerplate
-
-Once you've installed the [Ignite CLI](https://github.com/infinitered/ignite), you can get started with this boilerplate.
-
-This is the boilerplate that the [Infinite Red](https://infinite.red) team recommends and uses on a day-to-day basis. Prior art includes [Ignite Andross](https://github.com/infinitered/ignite-andross).
+Powered by [Ignite CLI](https://github.com/infinitered/ignite).
 
 Includes:
 
@@ -20,8 +10,6 @@ Includes:
 * TypeScript
 * Reactotron (requires 2.x)
 * And more!
-
-To see it in action, check out these [examples](https://github.com/infinitered/ignite-bowser-examples)!
 
 ## Quick Start
 
@@ -34,7 +22,7 @@ $ yarn global add ignite-cli
 Then spin up a new Bowser-powered React Native app:
 
 ```
-$ ignite new MyApp -b bowser
+$ ignite new MyApp -b ddn-mobile
 ```
 
 The Ignite Bowser boilerplate project's structure will look similar to this:
@@ -128,11 +116,10 @@ This is where your stories will be registered and where the Storybook configs wi
 ### ./test directory
 This directory will hold your Jest configs and mocks, as well as your [storyshots](https://github.com/storybooks/storybook/tree/master/addons/storyshots) test file. This is a file that contains the snapshots of all your component storybooks.
 
-## Previous Boilerplates
-
-* [2017 aka Andross](https://github.com/infinitered/ignite-andross)
-* [2016 aka Ignite 1.0](https://github.com/infinitered/ignite-ir-boilerplate-2016)
-
 ## Premium Support
 
-[Ignite CLI](https://infinite.red/ignite), [Ignite Andross](https://github.com/infinitered/ignite-andross), and [Ignite Bowser](https://github.com/infinitered/ignite-bowser), as open source projects, are free to use and always will be. [Infinite Red](https://infinite.red/) offers premium Ignite CLI support and general mobile app design/development services. Email us at [hello@infinite.red](mailto:hello@infinite.red) to get in touch with us for more details.
+[Ignite CLI](https://infinite.red/ignite)
+
+## About DDN
+
+[DDN Blockchain](http://ddn.link)

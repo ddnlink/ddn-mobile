@@ -1,0 +1,21 @@
+{
+  "common": {
+    "ok": "确定",
+    "cancel": "取消",
+    "back": "后退"
+  },
+
+  "searchScreen": {
+    "header": "搜索"
+  },
+  "homeScreen": {
+    "header": "主页"
+  },
+  "messageScreen": {
+    "header": "信息"
+  },
+  "settingScreen": {
+    "header": "设置"
+  }
+
+}

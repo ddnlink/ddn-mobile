@@ -1,9 +1,9 @@
 {
-  "name": "ignite-bowser",
-  "description": "Infinite Red's hot boilerplate for React Native.",
+  "name": "ddn-mobile",
+  "description": "DDN Link's hot boilerplate for Mobile.",
   "license": "MIT",
-  "repository": "infinitered/ignite-bowser",
-  "homepage": "https://github.com/infinitered/ignite-bowser",
+  "repository": "ddnlink/ddn-mobile",
+  "homepage": "https://github.com/ddnlink/ddn-mobile.git",
   "version": "4.4.1",
   "files": [
     "boilerplate",
@@ -16,9 +16,9 @@
     "vanilla"
   ],
   "author": {
-    "name": "Infinite Red",
-    "email": "npm@infinite.red",
-    "url": "https://github.com/infinitered/ignite-bowser"
+    "name": "Imfly",
+    "email": "support@ddn.link",
+    "url": "https://github.com/ddnlink/ddn-mobile.git"
   },
   "scripts": {
     "lint": "eslint commands lib test --fix",
@@ -42,6 +42,9 @@
       "describe": false,
       "jest": false,
       "it": false
+    },
+    "rules": {
+      "no-extra-boolean-cast": "off"
     }
   },
   "prettier": {

@@ -9,7 +9,7 @@ module.exports = {
   alias: ['g'],
   run: () => {
     throw new Error(`
-      Error with "ignite generate" in ignite-bowser
+      Error with "ignite generate" in ddn-mobile
       
       please report issue at https://github.com/infinitered/ignite
     `)

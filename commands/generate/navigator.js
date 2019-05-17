@@ -2,7 +2,7 @@ const patterns = require('../../lib/patterns')
 
 module.exports = {
   description: 'Generates a React Navigation navigator.',
-  run: async function(toolbox) {
+  run: async function (toolbox) {
     // grab some features
     const {
       parameters,
@@ -19,12 +19,12 @@ module.exports = {
 
     // prettier-ignore
     const navigatorTypes = {
-      'Stack': "createStackNavigator",
-      'Tab': "createBottomTabNavigator",
-      'Switch': "createSwitchNavigator",
-      'Drawer': "createDrawerNavigator",
-      'Material Bottom Tab': "createMaterialBottomTabNavigator",
-      'Material Top Tab': "createMaterialTopTabNavigator"
+      'Stack': 'createStackNavigator',
+      'Tab': 'createBottomTabNavigator',
+      'Switch': 'createSwitchNavigator',
+      'Drawer': 'createDrawerNavigator',
+      'Material Bottom Tab': 'createMaterialBottomTabNavigator',
+      'Material Top Tab': 'createMaterialTopTabNavigator'
     }
 
     // validation
@@ -77,7 +77,7 @@ module.exports = {
         choices: allPascalScreens
       }
 
-      result = await ask(askForScreens)
+      const result = await ask(askForScreens)
       pascalScreens = result.screens
     }
 
@@ -99,7 +99,7 @@ module.exports = {
         choices: allPascalNavigators
       }
 
-      result = await ask(askForNavigators)
+      const result = await ask(askForNavigators)
       pascalNavigators = result.screens
     }
 
@@ -129,7 +129,6 @@ module.exports = {
           `Something went wrong with the navigator generator.`
         print.error(msg)
         process.exit(1)
-        return
       }
 
       // insert screen/navigator import
